@@ -1,0 +1,51 @@
+body{
+	font-family: 'Droid Sans', sans-serif; 
+	background-color: #fdf4fb;
+}
+
+#header {
+	background-color: white;
+}
+
+	#header > h1 {
+		font-weight: bold;
+		font-size:5em;
+	}
+
+#menu {
+	background-color: pink;
+	font-size: 1.25em;
+	padding:10px;
+	height: 50px;
+}
+
+#navbar_container {
+	position: relative;
+}
+
+.navbar_custom {
+	background-color: red;
+	margin-bottom: 0px !important;
+	border:none !important;
+	border-radius: 0px !important;
+}
+
+.navbar_left {
+	background: url('../css/img/navbar_left.png');
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.navbar_right {
+	background: url('../css/img/navbar_right.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.blog_post {
+	background-color: white;
+	padding:20px;
+}
